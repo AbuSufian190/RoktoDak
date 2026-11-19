@@ -1,0 +1,17 @@
+# secrets
+.env
+*.env.local
+application-local.properties
+# backend
+backend/target/
+backend/data/
+backend/.env.local
+*.class
+# frontend
+frontend/node_modules/
+frontend/dist/
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
